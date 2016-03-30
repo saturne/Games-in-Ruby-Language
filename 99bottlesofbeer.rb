@@ -1,3 +1,7 @@
+=begin
+Write a mad lib program. Users are prompted for verbs, nouns, and adjectives and then it should output a paragraph using those words.
+=end
+
 puts "Which song lyric would you like to be displayed?"
 song = gets.chomp #can append downcase after .chomp
 song = song.downcase # can write this as song.downcase!..... it replaces previous song title
