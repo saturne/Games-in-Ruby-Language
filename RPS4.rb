@@ -1,3 +1,7 @@
+=begin
+Ro Sham Bo - A classic game of Rock, Paper, Scissors with a player and the computer. Win best out of 5.
+=end
+
 class RockPaperScissors
  attr_accessor :player
 
@@ -156,4 +160,6 @@ end
 
 $new_game = RockPaperScissors.new
 $new_game.gameplay
+
+
 
